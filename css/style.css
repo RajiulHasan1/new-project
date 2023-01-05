@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header{
+    background-color: #fff8f3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    height: 650px;
+}
+
+/* nav */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 200px;
+
+}
+
+.nav-title{
+    font-weight: 700;
+    font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin: 40px;
+}
+
+.ji{
+    color: orange;
+}
+.hire-btn{
+    height: 60px;
+    border-radius: 15px;
+    background-color: orange;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    border: 0;
+    padding: 18px 35px;
+
+}
+
+/* Banner style */
+
+.banner{
+    margin: 120px 200px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-subt{
+    font-weight: 200;
+    font-size: 65px;
+}
+
+.banner-title{
+    font-size: 70px;
+    font-size: 700;
+}
+.banner-dis{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+/* main */
+main{
+     max-width: 1100px;
+     margin: 0 auto;
+}
+
+/* About */
+
+.about{
+margin-top: 130px;
+background-color: #fff8f3;
+border-radius: 10px;
+padding: 130px 150px;
+text-align: center;
+}
+
+.about-title{
+    color: orange;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.about-pra{
+    color: aqua;
+font-size: 20px;
+}
+
+.about-in{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.about-name{
+    font-size: 20px;
+    color: red;
+}
+.about-dis{
+    font-size: 20px;
+    font-weight: 600px;
+    color: turquoise;
+}
+
+/* whta i do */
+
+.what-i-do{
+    margin-top: 130px;
+}
+
+.section-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.skils-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill-title{
+font-size: 20px;
+font-weight: 600;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+
+.skill-des{
+    font-size: 15;
+    color: gray;
+}
+
+.skill{
+    background-color: #fff8f3;
+    box-shadow: opx 6px 50px black;
+    border-radius: 5px;
+    padding: 30px;
+}
